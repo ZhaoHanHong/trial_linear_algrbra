@@ -1,0 +1,4 @@
+C:/Users/ZHH2/Downloads/trial/build/CMakeFiles/trial.dir
+C:/Users/ZHH2/Downloads/trial/build/CMakeFiles/calculate.dir
+C:/Users/ZHH2/Downloads/trial/build/CMakeFiles/edit_cache.dir
+C:/Users/ZHH2/Downloads/trial/build/CMakeFiles/rebuild_cache.dir

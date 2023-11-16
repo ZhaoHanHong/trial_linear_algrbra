@@ -1,0 +1,10 @@
+^C:\USERS\ZHH2\DOWNLOADS\TRIAL\BUILD\CMAKEFILES\A2F98385F5D48A47EBEBF838A18AC747\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ZHH2/Downloads/trial -BC:/Users/ZHH2/Downloads/trial/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ZHH2/Downloads/trial/build/Matrix.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

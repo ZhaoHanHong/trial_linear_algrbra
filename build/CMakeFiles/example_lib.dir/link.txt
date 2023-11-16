@@ -1,0 +1,2 @@
+D:\msys64\ucrt64\bin\ar.exe qc libexample_lib.a CMakeFiles/example_lib.dir/src/matrix.cpp.obj CMakeFiles/example_lib.dir/src/poly.cpp.obj
+D:\msys64\ucrt64\bin\ranlib.exe libexample_lib.a

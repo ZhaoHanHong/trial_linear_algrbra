@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/ZHH2/Downloads/trial/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/trial.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\trial.dir\\trial.cpp.obj -c C:\\Users\\ZHH2\\Downloads\\trial\\trial.cpp",
+  "file": "C:/Users/ZHH2/Downloads/trial/trial.cpp",
+  "output": "CMakeFiles/trial.dir/trial.cpp.obj"
+},
+{
+  "directory": "C:/Users/ZHH2/Downloads/trial/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/calculate.dir/includes_CXX.rsp  -Wall -g -o CMakeFiles\\calculate.dir\\calculate.cpp.obj -c C:\\Users\\ZHH2\\Downloads\\trial\\calculate.cpp",
+  "file": "C:/Users/ZHH2/Downloads/trial/calculate.cpp",
+  "output": "CMakeFiles/calculate.dir/calculate.cpp.obj"
+}
+]
