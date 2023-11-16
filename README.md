@@ -64,5 +64,27 @@ The reloaded operators allow you to call `a+b,a*b,c*a`where `a,b` are polynomial
 3. Matrix
 
 Our matrix enables basic properties of the matrix:
+```cpp
+Matrix();
+Matrix(int r,int c);
+Matrix(const Matrix& other);
+Matrix(Matrix &&other);
+Matrix& operator=(const Matrix& other);
+Matrix& operator=(Matrix &&other);
 
-The determinant: we use the recursive way of calculating det, which is an $O(n!)$ algorithm. However, since our entries may be polynomials which are hard to perform devisions, the elementary row operation method may not be easy to apply.
+const T operator()(int x,int y) const;
+T &operator()(int x,int y);
+
+friend std::ostream& operator<<<>(std::ostream& out,const Matrix<T> &matrix);
+const Matrix<T> GetSubMatrix(int pos_x,int pos_y) const;
+void ElementaryOp(int op_type,int op_index,int another_index=0,int constant=0);
+```
+In these functions, the matrix elements can be directly accessed and modified through the overloaded `(i,j)`, where `i,j` starts from 1, which is very human-readable. The `GetSubMatrix()` function returns an matrix object, and is very useful in determinant recursion. We also implemented the elementary row operations, with 1 for interchanging `op_index` and `another_index` rows, 2 for multipling `constant` to `op_index` row, and 3 for adding the `constant` multiple of `another_index` row to `op_index` row. The matrix can be outputed by `std::cout`, too.
+
+We also inplemented an non-member function:
+```cpp
+template<typename T>
+T Det(const Matrix<T> &matrix);
+```
+
+In the determinant, we use the recursive way of calculating det, which is an $O(n!)$ algorithm. However, since our entries may be polynomials which are hard to perform devisions, the elementary row operation method may not be easy to apply.
