@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "calculate::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-calculate-Debug-af2c0e9fe1be1c97332a.json",
+					"jsonFile" : "target-calculate-Debug-a5c417d129443d364dd6.json",
 					"name" : "calculate",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "trial::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-trial-Debug-0e3d042e565a80fbb3a6.json",
+					"jsonFile" : "target-trial-Debug-f956a9e7a0b9a8d62b54.json",
 					"name" : "trial",
 					"projectIndex" : 0
 				}
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ZHH2/Downloads/trial/build",
-		"source" : "C:/Users/ZHH2/Downloads/trial"
+		"build" : "D:/Github/linear_algebra_trial/build",
+		"source" : "D:/Github/linear_algebra_trial"
 	},
 	"version" : 
 	{

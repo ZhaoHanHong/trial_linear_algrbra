@@ -1,6 +1,6 @@
 CMakeFiles/trial.dir/trial.cpp.obj: \
- C:\Users\ZHH2\Downloads\trial\trial.cpp \
- C:/Users/ZHH2/Downloads/trial/include/poly.h \
+ D:\Github\linear_algebra_trial\trial.cpp \
+ D:/Github/linear_algebra_trial/include/poly.h \
  D:/msys64/ucrt64/include/c++/13.2.0/iostream \
  D:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  D:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -151,4 +151,4 @@ CMakeFiles/trial.dir/trial.cpp.obj: \
  D:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc \
  D:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
  D:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
- C:/Users/ZHH2/Downloads/trial/include/matrix.h
+ D:/Github/linear_algebra_trial/include/matrix.h

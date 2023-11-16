@@ -1,4 +1,4 @@
-C:/Users/ZHH2/Downloads/trial/build/CMakeFiles/trial.dir
-C:/Users/ZHH2/Downloads/trial/build/CMakeFiles/calculate.dir
-C:/Users/ZHH2/Downloads/trial/build/CMakeFiles/edit_cache.dir
-C:/Users/ZHH2/Downloads/trial/build/CMakeFiles/rebuild_cache.dir
+D:/Github/linear_algebra_trial/build/CMakeFiles/trial.dir
+D:/Github/linear_algebra_trial/build/CMakeFiles/calculate.dir
+D:/Github/linear_algebra_trial/build/CMakeFiles/edit_cache.dir
+D:/Github/linear_algebra_trial/build/CMakeFiles/rebuild_cache.dir
